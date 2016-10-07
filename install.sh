@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+command -v git >/dev/null 2>&1 || {
+    sudo apt-get install git
+}
+
 sudo apt-get update
 
 sudo apt-get install apt-transport-https
