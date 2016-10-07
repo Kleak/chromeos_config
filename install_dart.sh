@@ -18,3 +18,8 @@ sudo sh -c "curl https://storage.googleapis.com/download.dartlang.org/linux/debi
 sudo apt-get update
 
 sudo apt-get install dart
+
+echo "get atom latest"
+curl -L https://atom.io/download/deb > atom.deb
+
+sudo dpkg -i atom.deb
