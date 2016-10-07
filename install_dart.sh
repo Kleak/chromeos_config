@@ -17,6 +17,8 @@ sudo apt-get update
 
 sudo apt-get install dart
 
+echo "$PATH=$PATH:/usr/lib/dart/bin/" >> ~/.profile
+
 echo "get atom latest"
 curl -L https://atom.io/download/deb > atom.deb
 
