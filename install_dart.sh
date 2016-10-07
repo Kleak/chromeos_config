@@ -26,3 +26,7 @@ echo "get atom latest"
 curl -L https://atom.io/download/deb > atom.deb
 
 sudo dpkg -i atom.deb
+
+sudo apt-get install -f
+
+rm -r atom.deb
