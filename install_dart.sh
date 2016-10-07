@@ -19,7 +19,7 @@ sudo apt-get install dart
 
 command -v pub >/dev/null 2>&1 || {
     echo "pub not found! add it to the path"
-    echo "$PATH=$PATH:/usr/lib/dart/bin/" >> ~/.profile
+    echo "PATH=$PATH:/usr/lib/dart/bin/" >> ~/.profile
 }
 
 echo "get atom latest"
