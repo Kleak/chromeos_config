@@ -22,6 +22,8 @@ command -v pub >/dev/null 2>&1 || {
     echo "PATH=$PATH:/usr/lib/dart/bin/" >> ~/.profile
 }
 
+source ~/.profile
+
 echo "get atom latest"
 curl -L https://atom.io/download/deb > atom.deb
 
